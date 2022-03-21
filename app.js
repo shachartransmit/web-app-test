@@ -18,10 +18,6 @@ function invokeJourney() {
                 console.error(`Authenticate Error: ${error}`);
             })
     });
-
-    setTimeout(() => {
-        window.location = "https://www.google.com"
-    }, 3000);
 }
 
 function getClientContext() {
